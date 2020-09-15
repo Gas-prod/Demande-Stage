@@ -1,0 +1,133 @@
+html, body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+p, h1
+{
+    margin: 0;
+    padding: 0;
+    font-family: roboto;
+}
+a{
+    margin: 0;
+    padding: 0;
+    font-family: roboto;
+    color: rgb(26, 115, 232);
+    text-decoration: none;
+}
+a:hover
+{
+    font-style: italic;
+}
+#head
+{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    height: 15%;
+    margin: auto;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+#name
+{
+    text-align: start;
+    font-size: 20px;
+    width: 20%;
+}
+#title
+{
+    text-align: center;
+    font-size: 60px;
+    width: 60%;
+}
+#address
+{
+    text-align: end;
+    font-size: 20px;
+    width: 20%;
+}
+#cadre
+{
+    width: 80%;
+    height: 75%;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#cadre-text
+{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.text
+{
+    font-size: 20px;
+    display: none;
+}
+#cadre-button
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.button
+{
+    background-color: rgb(26, 115, 232);
+    border-radius: 10px;
+    width: 100px;
+    height: 50px;
+    display: flex;
+}
+.button:hover
+{
+    background-color: rgb(24, 63, 190);
+}
+.button2
+{
+    visibility: hidden;
+    width: 100px;
+    height: 50px;
+}
+.text-button
+{
+    text-align: center;
+    margin: auto;
+    color: white;
+    font-size: 20px;
+
+    -moz-user-select: none; /* Firefox */
+    -webkit-user-select: none; /* Chrome, Safari, Opéra depuis la version 15 */
+    -ms-user-select: none; /* Internet explorer depuis la version 10 et Edge */
+    user-select: none; /* Propriété standard */
+}
+
+.text
+{
+    animation-duration: 1s;
+    animation-name: anim-1;
+}
+
+@keyframes anim-1
+{
+    from
+    {
+        margin-left: 15%;
+        opacity: 0.5;
+    }
+    
+    to
+    {
+        margin-left: 0%;
+        opacity: 1;
+    }
+}
